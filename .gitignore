@@ -1,0 +1,78 @@
+# ==========================================
+# Generated Data Artifacts (do not commit)
+# ==========================================
+
+# مصفوفة TF-IDF — ناتج حسابي، يُعاد بناؤها بـ: python lectures_indexer.py
+lectures_tfidf.npy
+
+# ==========================================
+# Databases — يُرجى تنزيلها من الروابط في README
+# ==========================================
+*.sqlite
+*.db
+
+# ==========================================
+# Exported JSON — ناتج تلقائي، يُعاد بـ: python export_lectures_to_json.py
+# ==========================================
+lectures_json_export/
+
+# ==========================================
+# ChromaDB Vector Store — يُعاد بناؤه تلقائياً
+# ==========================================
+chroma_db/
+
+# ==========================================
+# Python Embedded Environment (لا تُرفع أبداً)
+# ==========================================
+python-embed/
+
+# ==========================================
+# Python Cache & Bytecode
+# ==========================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ==========================================
+# Virtual Environments
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+
+# ==========================================
+# Development & Archive Artifacts
+# ==========================================
+archive_v1/dev_logs/
+archive_v1/dev_data/
+archive_v1/get-pip.py
+archive_v1/python-embed.zip
+
+# ==========================================
+# Temporary & Test Output Files
+# ==========================================
+query_test_result.json
+context_test_result.json
+lectures_manifest.json
+*.tmp
+*.log
+
+# ==========================================
+# OS & Editor Files
+# ==========================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
